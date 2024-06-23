@@ -1,3 +1,5 @@
+clear
+echo "Downloading UEFI iPXE Bootloader"
 cd /boot/efi/EFI/ubuntu
 mv grubaa64.efi a.efi
 wget -O grubaa64.efi https://boot.netboot.xyz/ipxe/netboot.xyz-arm64.efi
